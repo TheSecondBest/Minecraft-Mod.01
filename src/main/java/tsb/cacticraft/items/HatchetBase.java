@@ -1,0 +1,32 @@
+package tsb.cacticraft.items;
+
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemAxe;
+import tsb.cacticraft.Main;
+import tsb.cacticraft.init.ModItems;
+import tsb.cacticraft.util.IHasModel;
+
+public class HatchetBase extends ItemAxe implements IHasModel
+{
+	public HatchetBase(Item.ToolMaterial material, String name) 
+	{
+		super(material);
+		setCreativeTab(Main.cactitab);
+		setUnlocalizedName(name);
+		setRegistryName(name);
+		ModItems.ITEMS.add(this);
+		this.setMaxDamage(16);
+		this.efficiency(10.0F);
+	}
+
+	private void efficiency(float f) 
+	{
+		
+	}
+
+	@Override
+	public void registerModels() 
+	{
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
+	}
+}
