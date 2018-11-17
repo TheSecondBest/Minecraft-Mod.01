@@ -1,0 +1,46 @@
+package tsb.cacticraft.items;
+
+import java.util.Set;
+
+import com.google.common.collect.Sets;
+
+import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemPickaxe;
+import tsb.cacticraft.Main;
+import tsb.cacticraft.init.ModItems;
+import tsb.cacticraft.util.IHasModel;
+
+public class PickaxeBase extends ItemPickaxe implements IHasModel
+{
+
+
+   public PickaxeBase(Item.ToolMaterial material, String name)
+    {
+        super(material);
+		setCreativeTab(Main.cactitab);
+		setUnlocalizedName(name);
+		setRegistryName(name);
+		ModItems.ITEMS.add(this);
+		if(material == ToolMaterial.WOOD)
+		{
+			setMaxDamage(16);
+			this.efficiency(10.0F);
+		}		
+	}
+	
+
+	private void efficiency(float f) 
+	{
+		
+	}
+
+
+	@Override
+	public void registerModels() 
+	{
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
+	}
+
+}
