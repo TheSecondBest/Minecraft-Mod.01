@@ -1,0 +1,32 @@
+package tsb.cacticraft.util.handlers;
+
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
+import net.minecraftforge.fml.common.network.IGuiHandler;
+import tsb.cacticraft.Reference;
+import tsb.cacticraft.blocks.machines.ContainerForge;
+import tsb.cacticraft.blocks.machines.ContainerSinterer;
+import tsb.cacticraft.blocks.machines.GuiForge;
+import tsb.cacticraft.blocks.machines.GuiSinterer;
+import tsb.cacticraft.blocks.machines.TileEntityForge;
+import tsb.cacticraft.blocks.machines.TileEntitySinterer;
+
+public class GuiHandler implements IGuiHandler
+{
+	@Override
+	public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) 
+	{
+		if(ID == Reference.GUI_FORGE) return new ContainerForge(player.inventory, (TileEntityForge)world.getTileEntity(new BlockPos(x,y,z)));
+		if(ID == Reference.GUI_SINTERER) return new ContainerSinterer(player.inventory, (TileEntitySinterer)world.getTileEntity(new BlockPos(x,y,z)));
+		return null;
+	}
+	
+	@Override
+	public Object getClientGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) 
+	{
+		if(ID == Reference.GUI_FORGE) return new GuiForge(player.inventory, (TileEntityForge)world.getTileEntity(new BlockPos(x,y,z)));
+		if(ID == Reference.GUI_SINTERER) return new GuiSinterer(player.inventory, (TileEntitySinterer)world.getTileEntity(new BlockPos(x,y,z)));
+		return null;
+	}
+}
