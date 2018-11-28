@@ -1,4 +1,4 @@
-package tsb.cacticraft.blocks.machines;
+package tsb.cacticraft.blocks.machines.recipes;
 
 import java.util.Map;
 import java.util.Map.Entry;
@@ -26,11 +26,10 @@ public class SintererRecipes
 	private SintererRecipes() 
 	{
 		addSintererRecipe(new ItemStack(ModItems.COPPER_INGOT), new ItemStack(ModItems.TIN_INGOT), new ItemStack(ModItems.BRONZE_INGOT), 5.0F);
-		addSintererRecipe(new ItemStack(ModItems.TIN_INGOT), new ItemStack(ModItems.COPPER_INGOT), new ItemStack(ModItems.BRONZE_INGOT), 5.0F);
 
-		addSintererRecipe(new ItemStack(ModItems.COPPER_INGOT), new ItemStack(ModItems.PICKAXE_HEAD_MOLD), new ItemStack(ModItems.COPPER_PICKAXE_HEAD), 5.0F);
-		addSintererRecipe(new ItemStack(ModItems.TIN_INGOT), new ItemStack(ModItems.PICKAXE_HEAD_MOLD), new ItemStack(ModItems.TIN_PICKAXE_HEAD), 5.0F);
-		addSintererRecipe(new ItemStack(ModItems.BRONZE_INGOT), new ItemStack(ModItems.PICKAXE_HEAD_MOLD), new ItemStack(ModItems.BRONZE_PICKAXE_HEAD), 5.0F);
+		addSintererRecipe(new ItemStack(ModItems.PICKAXE_HEAD_MOLD), new ItemStack(ModItems.COPPER_INGOT), new ItemStack(ModItems.COPPER_PICKAXE_HEAD), 5.0F);
+		addSintererRecipe(new ItemStack(ModItems.PICKAXE_HEAD_MOLD), new ItemStack(ModItems.TIN_INGOT), new ItemStack(ModItems.TIN_PICKAXE_HEAD), 5.0F);
+		addSintererRecipe(new ItemStack(ModItems.PICKAXE_HEAD_MOLD), new ItemStack(ModItems.BRONZE_INGOT), new ItemStack(ModItems.BRONZE_PICKAXE_HEAD), 5.0F);
 
 	}
 
