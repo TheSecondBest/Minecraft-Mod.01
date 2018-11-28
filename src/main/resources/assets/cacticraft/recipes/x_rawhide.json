@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern": 
+    [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+
+    "key": 
+    {
+        "A": 
+        {
+            "item": "minecraft:rotten_flesh"
+        },
+
+        "B": 
+        [
+        {
+            "item": "minecraft:coal",
+            "data": 1
+        },
+        {
+            "item": "minecraft:coal",
+            "data": 0
+        },
+        {
+            "item": "minecraft:spider_eye",
+        },
+        {
+            "item": "minecraft:slime_ball",
+        }
+        ]
+    },
+
+    "result": 
+    {
+        "item": "cacticraft:rawhide",
+        "count": 2
+    }
+}

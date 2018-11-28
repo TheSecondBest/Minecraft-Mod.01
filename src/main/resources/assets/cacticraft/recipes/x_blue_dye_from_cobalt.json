@@ -3,15 +3,17 @@
  
     "ingredients":
     [
-    
+ 
     {
-      "item": "minecraft:clay_ball"
+      "item": "cacticraft:cobalt"
     }
-   
+ 
     ],
  
     "result":
     {
-        "item": "cacticraft:blank_mold"
+        "item": "minecraft:dye",
+        "data": 4,
+        "count": 1
     }
 }

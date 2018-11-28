@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "AAA",
+        "A A"
+    ],
+   
+    "key":
+    {
+        "A":
+        [
+        {
+            "item": "cacticraft:bronze_ingot"
+        }
+        ]
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:bronzemail_helmet",
+        "count": 1
+    }
+}

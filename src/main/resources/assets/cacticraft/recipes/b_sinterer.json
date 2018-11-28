@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+   
+    "key":
+    {
+        "A":
+        {
+            "item": "cacticraft:copper_ingot"
+        },
+
+        "B":
+        {
+            "item": "minecraft:furnace",
+            "data": 0
+        }
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:sinterer",
+        "count": 1
+    }
+}

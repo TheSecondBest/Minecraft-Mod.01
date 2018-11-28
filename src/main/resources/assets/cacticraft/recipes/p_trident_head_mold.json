@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+    
+    {
+      "item": "cacticraft:stone_hoe_head"
+    },
+    
+    {
+      "item": "cacticraft:stone_hoe_head"
+    },
+    
+    {
+      "item": "cacticraft:stone_hoe_head"
+    },
+    
+    {
+      "item": "minecraft:clay_ball"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "cacticraft:trident_head_mold"
+    }
+}

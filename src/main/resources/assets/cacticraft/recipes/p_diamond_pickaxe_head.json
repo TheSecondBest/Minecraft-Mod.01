@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        " A ",
+        "A A"
+    ],
+   
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:diamond"
+        }
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:diamond_pickaxe_head",
+        "count": 1
+    }
+}

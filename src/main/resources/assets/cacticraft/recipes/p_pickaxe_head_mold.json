@@ -5,6 +5,10 @@
     [
     
     {
+      "item": "cacticraft:stone_pickaxe_head"
+    },
+    
+    {
       "item": "minecraft:clay_ball"
     }
    
@@ -12,6 +16,6 @@
  
     "result":
     {
-        "item": "cacticraft:blank_mold"
+        "item": "cacticraft:pickaxe_head_mold"
     }
 }

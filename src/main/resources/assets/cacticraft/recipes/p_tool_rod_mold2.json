@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+    
+    {
+      "item": "cacticraft:tool_rod_mold"
+    },
+    
+    {
+      "item": "cacticraft:blank_mold"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "cacticraft:tool_rod_mold"
+        "count": 2
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "AAA",
+        "AAA",
+        "AAA"
+    ],
+   
+    "key":
+    {
+        "A":
+        [
+        {
+            "item": "minecraft:reeds"
+        },
+        {
+            "item": "minecraft:leaves",
+            "data": 0
+        },
+        {
+            "item": "minecraft:leaves",
+            "data": 1
+        },
+        {
+            "item": "minecraft:leaves",
+            "data": 2
+        },
+        {
+            "item": "minecraft:leaves",
+            "data": 3
+        },
+        {
+            "item": "minecraft:leaves2",
+            "data": 0
+        },
+        {
+            "item": "minecraft:leaves2",
+            "data": 1
+        },
+        {
+            "item": "minecraft:sapling",
+            "data": 0
+        },
+        {
+            "item": "minecraft:sapling",
+            "data": 1
+        },
+        {
+            "item": "minecraft:sapling",
+            "data": 2
+        },
+        {
+            "item": "minecraft:sapling",
+            "data": 3
+        },
+        {
+            "item": "minecraft:sapling",
+            "data": 4
+        },
+        {
+            "item": "minecraft:sapling",
+            "data": 5
+        },
+        {
+            "item": "minecraft:wheat_seeds"
+        },
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:carrot"
+        },
+        {
+            "item": "minecraft:potato"
+        },
+        {
+            "item": "minecraft:cactus"
+        },
+        {
+            "item": "minecraft:beetroot"
+        },
+        {
+            "item": "minecraft:beetroot_seeds"
+        }
+        ]
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:compost",
+        "count": 1
+    }
+}

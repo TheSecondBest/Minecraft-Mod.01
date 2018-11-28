@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+   
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:leaves",
+            "data": 1
+        },
+
+        "B":
+        {
+            "item": "minecraft:dirt",
+            "data": 0
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:dirt",
+        "data": 2,
+        "count": 1
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern": 
+    [
+        "A",
+        "A",
+        "A"
+    ],
+
+    "key": 
+    {
+        "A": 
+        {
+            "item": "minecraft:cactus"
+        }
+    },
+
+    "result": 
+    {
+        "item": "cacticraft:cactistick",
+        "count": 1
+    }
+}

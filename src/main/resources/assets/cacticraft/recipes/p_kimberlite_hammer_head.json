@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "AAA"
+    ],
+   
+    "key":
+    {
+        "A":
+        [
+        {
+            "item": "cacticraft:kimberlite"
+        }
+        ]
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:kimberlite_hammer_head",
+        "count": 1
+    }
+}

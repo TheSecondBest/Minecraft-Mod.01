@@ -5,6 +5,10 @@
     [
     
     {
+      "item": "minecraft:stick"
+    },
+    
+    {
       "item": "minecraft:clay_ball"
     }
    
@@ -12,6 +16,6 @@
  
     "result":
     {
-        "item": "cacticraft:blank_mold"
+        "item": "cacticraft:tool_rod_mold"
     }
 }

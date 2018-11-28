@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "AAA"
+    ],
+   
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:dirt"
+        }
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:dirt_slab",
+        "count": 1
+    }
+}

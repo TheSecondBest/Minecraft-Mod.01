@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+   
+    "key":
+    {
+        "A":
+        [
+        {
+           "item": "minecraft:planks",
+           "data": 0
+        },
+        {
+           "item": "minecraft:planks",
+           "data": 1
+        },
+        {
+           "item": "minecraft:planks",
+           "data": 2
+        },
+        {
+           "item": "minecraft:planks",
+           "data": 3
+        },
+        {
+           "item": "minecraft:planks",
+           "data": 4
+        },
+        {
+           "item": "minecraft:planks",
+           "data": 5
+        }
+        ],
+
+        "B":
+        {
+            "item": "minecraft:bucket"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:end_stone",
+        "count": 8
+    }
+}

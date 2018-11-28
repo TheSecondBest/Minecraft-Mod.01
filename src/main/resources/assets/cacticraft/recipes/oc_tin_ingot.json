@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "cacticraft:orichalcum_ingot"
+    },
+ 
+    {
+      "item": "cacticraft:tin_ingot"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "cacticraft:tin_ingot",
+        "count": 2
+    }
+}

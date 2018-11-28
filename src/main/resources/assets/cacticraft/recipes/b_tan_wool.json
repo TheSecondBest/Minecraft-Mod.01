@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "minecraft:wool",
+      "data": 0
+    },
+ 
+    {
+      "item": "cacticraft:tan_dye"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "cacticraft:tan_wool",
+        "count": 1
+    }
+}

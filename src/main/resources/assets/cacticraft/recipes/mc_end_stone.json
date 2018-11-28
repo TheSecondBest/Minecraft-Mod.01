@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+   
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:cobblestone"
+        },
+
+        "B":
+        {
+            "item": "minecraft:ender_eye"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:end_stone",
+        "count": 8
+    }
+}

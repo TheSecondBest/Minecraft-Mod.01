@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "AAA",
+        "AAA",
+        " B "
+    ],
+   
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:cobblestone"
+        },
+        
+        "B":
+        {
+            "item": "minecraft:bucket"
+        }
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:bucket_of_rocks",
+        "count": 1
+    }
+}

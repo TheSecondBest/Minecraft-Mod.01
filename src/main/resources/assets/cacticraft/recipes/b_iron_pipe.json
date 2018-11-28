@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "A A",
+        "A A",
+        "A A"
+    ],
+   
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:iron_ingot"
+        }
+   },
+   
+    "result":
+    {
+        "item": "cacticraft:iron_pipe",
+        "count": 6
+    }
+}

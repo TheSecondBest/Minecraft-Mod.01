@@ -3,15 +3,16 @@
  
     "ingredients":
     [
-    
+ 
     {
-      "item": "minecraft:clay_ball"
+      "item": "cacticraft:flesh_block"
     }
-   
+
     ],
  
     "result":
     {
-        "item": "cacticraft:blank_mold"
+        "item": "minecraft:rotten_flesh",
+        "count": 9
     }
 }

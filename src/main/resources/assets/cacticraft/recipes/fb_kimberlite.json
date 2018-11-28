@@ -3,15 +3,16 @@
  
     "ingredients":
     [
-    
+ 
     {
-      "item": "minecraft:clay_ball"
+      "item": "cacticraft:kimberlite_block"
     }
-   
+
     ],
  
     "result":
     {
-        "item": "cacticraft:blank_mold"
+        "item": "cacticraft:kimberlite",
+        "count": 4
     }
 }

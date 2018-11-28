@@ -3,15 +3,20 @@
  
     "ingredients":
     [
-    
+ 
     {
-      "item": "minecraft:clay_ball"
+      "item": "modid:object"
+    },
+ 
+    {
+      "item": "modid:object"
     }
    
     ],
  
     "result":
     {
-        "item": "cacticraft:blank_mold"
+        "item": "modid:object",
+        "count": 1
     }
 }

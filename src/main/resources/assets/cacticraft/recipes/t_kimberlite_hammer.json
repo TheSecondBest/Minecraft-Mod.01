@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "B",
+        "A",
+        "A"
+    ],
+   
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:stick"
+        },
+
+        "B":
+        {
+            "item": "cacticraft:kimberlite_hammer_head"
+        }
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:kimberlite_hammer",
+        "count": 1
+    }
+}

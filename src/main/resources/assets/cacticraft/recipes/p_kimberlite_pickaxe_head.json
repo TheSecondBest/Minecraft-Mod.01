@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        " A ",
+        "A A"
+    ],
+   
+    "key":
+    {
+        "A":
+        [
+        {
+            "item": "cacticraft:kimberlite"
+        }
+        ]
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:kimberlite_pickaxe_head",
+        "count": 1
+    }
+}

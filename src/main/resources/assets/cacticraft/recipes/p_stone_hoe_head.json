@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        " A",
+        "AA"
+    ],
+   
+    "key":
+    {
+        "A":
+        [
+        {
+            "item": "minecraft:cobblestone"
+        },
+        {
+            "item": "minecraft:stone",
+            "data": 0
+        }
+        ]
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:stone_hoe_head",
+        "count": 1
+    }
+}

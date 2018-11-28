@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "AA",
+        "AA"
+    ],
+   
+    "key":
+    {
+        "A":
+        {
+            "item": "cacticraft:kimberlite"
+        }
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:kimberlite_block",
+        "count": 1
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+   
+    "key":
+    {
+        "A":
+        [
+        {
+            "item": "minecraft:coal_block"
+        },
+        {
+            "item": "cacticraft:charcoal_block"
+        }
+        ],
+        
+        "B":
+        {
+            "item": "minecraft:blaze_rod"
+        }
+        
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:graphite_block",
+        "count": 1
+    }
+}

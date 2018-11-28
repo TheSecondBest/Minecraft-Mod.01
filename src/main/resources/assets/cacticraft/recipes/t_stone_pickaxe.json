@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "B",
+        "A",
+        "A"
+    ],
+   
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:stick"
+        },
+
+        "B":
+        {
+            "item": "cacticraft:stone_pickaxe_head"
+        }
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:stone_pickaxe",
+        "count": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "B",
+        "B",
+        "A"
+    ],
+   
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:stick"
+        },
+
+        "B":
+        {
+            "item": "cacticraft:kimberlite"
+        }
+    },
+   
+    "result":
+    {
+        "item": "cacticraft:kimberlite_sword",
+        "count": 1
+    }
+}

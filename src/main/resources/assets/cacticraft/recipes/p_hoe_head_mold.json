@@ -5,6 +5,10 @@
     [
     
     {
+      "item": "cacticraft:stone_hoe_head"
+    },
+    
+    {
       "item": "minecraft:clay_ball"
     }
    
@@ -12,6 +16,6 @@
  
     "result":
     {
-        "item": "cacticraft:blank_mold"
+        "item": "cacticraft:hoe_head_mold"
     }
 }

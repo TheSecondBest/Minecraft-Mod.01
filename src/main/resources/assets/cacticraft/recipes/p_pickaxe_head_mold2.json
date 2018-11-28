@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+    
+    {
+      "item": "cacticraft:pickaxe_head_mold"
+    },
+    
+    {
+      "item": "cacticraft:blank_mold"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "cacticraft:pickaxe_head_mold"
+        "count": 2
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "minecraft:dye",
+      "data": 3
+    },
+ 
+    {
+      "item": "minecraft:dye",
+      "data": 15
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "cacticraft:tan_dye",
+        "count": 1
+    }
+}
